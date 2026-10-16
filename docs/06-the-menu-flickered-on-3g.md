@@ -39,13 +39,14 @@ and desktop view were unaffected.
 
 ## The result
 
-Lighthouse on the live site (October 16, 2026):
+Lighthouse on the live site, October 16, 2026. Scores move a little between runs, so these are the ranges across several runs:
 
 | Page | Performance (desktop / mobile) | Accessibility | SEO |
 | --- | :-: | :-: | :-: |
-| Home | 99 / 91 | 100 | 100 |
-| Events | 99 / 95 | 100 | 100 |
-| Sponsors | 99 / 98 | 100 | 100 |
+| Home | 99 / 91–95 | 100 | 100 |
+| Events | 99 / 95–96 | 100 | 100 |
+| Sponsors | 99–100 / 96–98 | 100 | 100 |
 
-Layout shift is zero on all three pages. The home page scores lowest on mobile because of
-its background video.
+Layout shift is zero on every page except the home page on desktop, at about 0.05, which is
+still well within Google's "good" range of under 0.1. The home page scores lowest on mobile
+because of its background video.

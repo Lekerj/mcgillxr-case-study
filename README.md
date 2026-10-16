@@ -36,7 +36,7 @@ This repo is the write-up. The code is private to the club.
 | Who can see it | Only accounts with access | Everyone |
 | Events | One past-events page | 21 events from 2022 to 2026, the major ones with their own page |
 | Sponsors | Logos only, no years | 31, by year, each sourced |
-| Lighthouse | n/a | 100 accessibility, 100 SEO, 99 performance on desktop |
+| Lighthouse | n/a | 100 accessibility, 100 SEO, 99+ performance on desktop |
 
 Built with Astro and hosted on Cloudflare. Full-page screenshots are in
 [`screenshots/`](screenshots).
