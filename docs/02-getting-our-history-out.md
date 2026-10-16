@@ -11,7 +11,7 @@ the text but none of the images.
 
 **What worked.** I scraped it with a real browser signed in as the club. Across the club site
 and the CareXR hackathon site, that recovered about 280 photos. I filled the gaps from Luma,
-Devpost and photos of event banners and shirts.
+Devpost and photos of event banners and shirts from social media platforms like Instagram.
 
 **Cleanup.** I deleted the saved login afterwards, and kept the scraper and raw data out of
 the website repo.
