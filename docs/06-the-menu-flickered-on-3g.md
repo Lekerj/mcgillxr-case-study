@@ -19,8 +19,8 @@ start closed, and changed the logo to a regular image so it loads right away.
 
 ## Testing it
 
-I recorded the page frame by frame on throttled 3G and 4G connections, and kept going until
-none of the three problems showed up.
+I recorded the page frame by frame on throttled 3G and 4G connections and confirmed none of
+the three problems showed up.
 
 ## The result
 

@@ -4,24 +4,28 @@
 
 ## The problem
 
-Sponsors read this site, and the old content didn't match the club's own records.
+Sponsors read this site, and some of the old content didn't match the club's own records.
 
-## Checking every claim
+## Checking the content
 
-I treated nothing on the old site as true until I could back it up. Each claim was checked
-against event summaries, judging sheets, sponsorship decks and Devpost.
+I didn't treat anything as true just because it was already published. I checked the event
+write-ups against event summaries, judging sheets, sponsorship decks and Devpost.
 
-| The old site said | The records said |
+| The old site said | What I found |
 | --- | --- |
-| "$10,150" in prizes | Over $5,000 |
-| "First of its kind" | Our first hackathon |
-| "An organization at McGill University" | Independent, open to any school |
-| A board member's LinkedIn | Someone else's profile |
+| NeuroVR 2024 was "the first of its kind" | Nothing backs that up. It was our first hackathon. |
+| McGillXR is "an organization at McGill University" | We're independent and open to students from any school |
+| A link to an exec member's LinkedIn | It went to someone else's profile |
+| A photo for our orientation Beat Saber booth | It was the game's marketing art, not a photo of the event |
 
-Anything I couldn't confirm went on a list to follow up on, not onto the site.
+My own first draft didn't get a pass either. It listed CareXR's prizes as $10,150, and the
+event summary and sponsorship deck both say "over $5,000", so I corrected it.
+
+Some facts I couldn't confirm or disprove. Those are flagged in the project's to-do list so
+they get checked before anyone repeats them.
 
 ## Keeping it accurate
 
-Sponsors used to be typed in by hand, separately from the events, so the two drifted apart.
-Now each sponsor is recorded on the event it supported, and the sponsors page is built from
-that. The result is 31 organizations, each one traceable to a source.
+On the old site, sponsors were listed on their own page, separate from the events. Now each
+sponsor is recorded on the event it supported, and the sponsors page is built from that. The
+result is 31 organizations from 2022 to 2026, each one traceable to a source.

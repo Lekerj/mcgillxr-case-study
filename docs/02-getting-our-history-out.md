@@ -4,7 +4,7 @@
 
 ## The problem
 
-Four years of events, photos and sponsors existed only on the private Google Site.
+Most of four years of events, photos and sponsors lived on the private Google Site.
 
 ## What didn't work
 
@@ -15,7 +15,7 @@ the text from when the site was public, but none of the images.
 
 ## What did
 
-I scraped the site with a real browser signed in as the club. Between the club site and the
+I scraped the site with a real browser, signed in with an account that had access. Between the club site and the
 CareXR hackathon site, I recovered about 280 photos. For anything still missing, I went to
 Luma, Devpost, and photos of event banners and shirts posted on Instagram and other social
 media.

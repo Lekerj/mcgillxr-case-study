@@ -3,7 +3,7 @@
 <img src="assets/cover.png" alt="The new McGillXR website on desktop and phone." width="100%">
 
 I'm the VP Technology of [McGillXR](https://mcgillxr.ca), a student-run XR club in Montreal.
-In September 2026 I inherited a website nobody could open. Four weeks later it was live at
+In September 2026 I inherited a website nobody could open. Less than four weeks later it was live at
 `mcgillxr.ca`.
 
 This repo is the write-up. The code is private to the club.
@@ -16,7 +16,7 @@ This repo is the write-up. The code is private to the club.
 
 1. [Nobody could see the site](docs/01-nobody-could-see-the-site.md). Traced the domain and found the actual blocker.
 2. [Our history was behind a login](docs/02-getting-our-history-out.md). Scraped it with a signed-in browser.
-3. [The old site was wrong](docs/03-the-old-site-was-wrong.md). Checked every claim against the club's records.
+3. [The old site was wrong](docs/03-the-old-site-was-wrong.md). Checked the content against the club's records.
 4. [The site had to survive me leaving](docs/04-a-site-that-outlives-me.md). Static, content as files, mistakes break the build.
 5. [Posters broke every grid](docs/05-posters-broke-the-grid.md). Three failed attempts, then subgrid.
 6. [The menu flickered on 3G](docs/06-the-menu-flickered-on-3g.md). Three symptoms, one cause.
@@ -31,10 +31,10 @@ This repo is the write-up. The code is private to the club.
 
 | | Before | After |
 | --- | --- | --- |
-| Who can see it | Signed-in Google accounts | Everyone |
-| Events | Broken images | 21 events, 2022–2026 |
-| Sponsors | 8 logos | 31, by year, each sourced |
-| Lighthouse | n/a | 99 performance, 100 accessibility, 100 SEO |
+| Who can see it | Only accounts with access | Everyone |
+| Events | A list on one page | 21 events, 2022–2026, each with its own page |
+| Sponsors | Logos only, no years | 31, by year, each sourced |
+| Lighthouse | n/a | 100 accessibility, 100 SEO, 99 performance on desktop |
 
 Built with Astro and hosted on Cloudflare. Full-page screenshots are in
 [`screenshots/`](screenshots).

@@ -28,5 +28,5 @@ last step.
 
 ## What I'd change for next time
 
-Every account belongs to the club, with at least two owners and auto-renew turned on. That
-one rule would have prevented the whole situation.
+Every account should belong to the club, with at least two owners and auto-renew turned on.
+That one rule would have prevented the whole situation.

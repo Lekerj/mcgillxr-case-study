@@ -11,7 +11,7 @@ have used the tools I picked.
 
 ### Static, with nothing to maintain
 
-There's no server, database or password to hand over. The whole site is plain files.
+There's no server or database to keep running. The whole site is plain files.
 
 ### Content anyone can edit
 
