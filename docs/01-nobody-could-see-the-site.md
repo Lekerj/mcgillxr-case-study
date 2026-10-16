@@ -2,21 +2,31 @@
 
 [← Back](../README.md) · [Next →](02-getting-our-history-out.md)
 
-**Problem.** `www.mcgillxr.ca` led to a Google sign-in page and `mcgillxr.ca` didn't load at
-all. Nobody on the team had the domain login.
+## The problem
 
-**What I figured out.** Google Sites didn't control the domain. One DNS record pointed it
-there. So I didn't need access to the old site. I needed the registrar login, and then I
-could repoint the domain and leave the old site untouched.
+`www.mcgillxr.ca` led to a Google sign-in page, and `mcgillxr.ca` didn't load at all. On top
+of that, nobody on the team had the login for the domain.
+
+## Finding the real blocker
+
+The obvious fix was to make the Google Site public again. Instead I traced where the domain
+actually pointed. It turned out Google Sites never controlled it. A single DNS record did.
 
 ```mermaid
 flowchart LR
     R[Registrar] --> D[Google DNS] --> G[Google Sites] --> W[Sign-in page]
 ```
 
-**Decision.** I didn't let the missing login hold everything up. I pulled the content out,
-built the new site and deployed it to a temporary address first. The login only blocked the
+That changed the plan. I didn't need access to the old site at all, only the registrar
+login. With that, I could point the domain somewhere new and leave the old site alone.
+
+## Working around it
+
+I didn't want the missing login to block everything. So I pulled the content out first,
+built the new site, and deployed it to a temporary address. The login only blocked the very
 last step.
 
-**Lesson.** Club accounts belong to the club, with two owners and auto-renew on. That alone
-would have prevented all of this.
+## What I'd change for next time
+
+Every account belongs to the club, with at least two owners and auto-renew turned on. That
+one rule would have prevented the whole situation.

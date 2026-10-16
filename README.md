@@ -14,14 +14,14 @@ This repo is the write-up. The code is private to the club.
 
 ## The problems
 
-1. [**Nobody could see the site**](docs/01-nobody-could-see-the-site.md): traced the domain and found the actual blocker.
-2. [**Our history was behind a login**](docs/02-getting-our-history-out.md): scraped it with a signed-in browser.
-3. [**The old site was wrong**](docs/03-the-old-site-was-wrong.md): checked every claim against the club's records.
-4. [**The site had to survive me leaving**](docs/04-a-site-that-outlives-me.md): static, content as files, mistakes break the build.
-5. [**Posters broke every grid**](docs/05-posters-broke-the-grid.md): three failed attempts, then subgrid.
-6. [**The menu flickered on 3G**](docs/06-the-menu-flickered-on-3g.md): three symptoms, one cause.
-7. [**Moving the domain**](docs/07-moving-the-domain.md): a switch that could be undone at every step.
-8. [**Photos of real people**](docs/08-photos-of-real-people.md): metadata, credit and consent.
+1. [Nobody could see the site](docs/01-nobody-could-see-the-site.md). Traced the domain and found the actual blocker.
+2. [Our history was behind a login](docs/02-getting-our-history-out.md). Scraped it with a signed-in browser.
+3. [The old site was wrong](docs/03-the-old-site-was-wrong.md). Checked every claim against the club's records.
+4. [The site had to survive me leaving](docs/04-a-site-that-outlives-me.md). Static, content as files, mistakes break the build.
+5. [Posters broke every grid](docs/05-posters-broke-the-grid.md). Three failed attempts, then subgrid.
+6. [The menu flickered on 3G](docs/06-the-menu-flickered-on-3g.md). Three symptoms, one cause.
+7. [Moving the domain](docs/07-moving-the-domain.md). A switch that could be undone at every step.
+8. [Photos of real people](docs/08-photos-of-real-people.md). Metadata, credit and consent.
 
 ## Before and after
 

@@ -2,15 +2,27 @@
 
 [← Previous](05-posters-broke-the-grid.md) · [Back](../README.md) · [Next →](07-moving-the-domain.md)
 
-**Problem.** On a slow phone, every tap flashed the menu open, flashed the page white and
-drew the header without its logo.
+## The problem
 
-**Root cause.** Three symptoms, one cause: the first frame depended on a stylesheet that
-hadn't loaded yet.
+On a slow phone connection, every tap flashed the menu open, flashed the page white and
+showed the header without its logo.
 
-**Fix.** I put the few rules the first frame needs directly in the page, shipped the menu
-closed by default, and made the logo a normal image.
+## The root cause
 
-**How I checked.** I recorded frames on throttled 3G and 4G until none of the three showed up.
+These looked like three separate bugs, but they had one cause. The first thing the browser
+drew depended on a stylesheet that hadn't finished loading yet.
 
-**Result.** Lighthouse: 99 performance on desktop, 100 accessibility, zero layout shift.
+## The fix
+
+I put the handful of styles the first frame needs directly into the page, made the menu
+start closed, and changed the logo to a regular image so it loads right away.
+
+## Testing it
+
+I recorded the page frame by frame on throttled 3G and 4G connections, and kept going until
+none of the three problems showed up.
+
+## The result
+
+Lighthouse gives the site 99 for performance on desktop and 100 for accessibility, with no
+layout shift at all.

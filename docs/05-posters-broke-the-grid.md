@@ -2,16 +2,21 @@
 
 [← Previous](04-a-site-that-outlives-me.md) · [Back](../README.md) · [Next →](06-the-menu-flickered-on-3g.md)
 
-**Problem.** Event photos are wide and posters are tall. Mixed in one row, they wrecked the
-layout.
+## The problem
 
-**What I tried.**
+Event photos are wide and event posters are tall. Put both in the same row and the layout
+fell apart.
 
-- Cropping posters cut off their titles.
+## What I tried first
+
+- Cropping the posters cut off their titles.
 - Shrinking them made them unreadable.
-- Leaving them alone pushed the text on neighbouring cards 280 px out of line.
+- Leaving them alone pushed the text on the cards next to them 280 px out of line.
 
-**What worked.** Photos get a small crop, and posters are never cropped or scaled. CSS subgrid
-makes each row as tall as its tallest picture, so the text on every card in a row lines up.
+## The solution
+
+Photos get a light crop, and posters are never cropped or resized. I used CSS subgrid so
+each row grows to fit its tallest picture, which keeps the text on every card in that row
+lined up.
 
 ![Events page](../screenshots/new-events-desktop-full.jpg)
