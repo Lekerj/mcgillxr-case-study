@@ -1,6 +1,6 @@
 # 6. The menu flickered on 3G
 
-[← Previous](05-posters-broke-the-grid.md) · [Back](../README.md) · [Next →](07-moving-the-domain.md)
+[← Previous](05-posters-broke-the-grid.md) · [Home](../README.md) · [Next →](07-moving-the-domain.md)
 
 ## The problem
 

@@ -1,6 +1,6 @@
 # 4. The site had to survive me leaving
 
-[← Previous](03-the-old-site-was-wrong.md) · [Back](../README.md) · [Next →](05-posters-broke-the-grid.md)
+[← Previous](03-the-old-site-was-wrong.md) · [Home](../README.md) · [Next →](05-posters-broke-the-grid.md)
 
 ## The problem
 

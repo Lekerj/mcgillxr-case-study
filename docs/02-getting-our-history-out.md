@@ -1,6 +1,6 @@
 # 2. Our history was behind a login
 
-[← Previous](01-nobody-could-see-the-site.md) · [Back](../README.md) · [Next →](03-the-old-site-was-wrong.md)
+[← Previous](01-nobody-could-see-the-site.md) · [Home](../README.md) · [Next →](03-the-old-site-was-wrong.md)
 
 ## The problem
 

@@ -1,6 +1,6 @@
 # 8. Photos of real people
 
-[← Previous](07-moving-the-domain.md) · [Back](../README.md)
+[← Previous](07-moving-the-domain.md) · [Home](../README.md)
 
 ## The problem
 

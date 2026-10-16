@@ -1,6 +1,6 @@
 # 3. The old site was wrong
 
-[← Previous](02-getting-our-history-out.md) · [Back](../README.md) · [Next →](04-a-site-that-outlives-me.md)
+[← Previous](02-getting-our-history-out.md) · [Home](../README.md) · [Next →](04-a-site-that-outlives-me.md)
 
 ## The problem
 

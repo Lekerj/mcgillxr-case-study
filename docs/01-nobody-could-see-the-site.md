@@ -1,6 +1,6 @@
 # 1. Nobody could see the site
 
-[← Back](../README.md) · [Next →](02-getting-our-history-out.md)
+[Home](../README.md) · [Next →](02-getting-our-history-out.md)
 
 ## The problem
 

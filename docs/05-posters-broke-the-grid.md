@@ -1,6 +1,6 @@
 # 5. Posters broke every grid
 
-[← Previous](04-a-site-that-outlives-me.md) · [Back](../README.md) · [Next →](06-the-menu-flickered-on-3g.md)
+[← Previous](04-a-site-that-outlives-me.md) · [Home](../README.md) · [Next →](06-the-menu-flickered-on-3g.md)
 
 ## The problem
 

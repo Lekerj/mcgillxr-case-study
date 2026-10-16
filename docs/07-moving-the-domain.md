@@ -1,6 +1,6 @@
 # 7. Moving the domain
 
-[← Previous](06-the-menu-flickered-on-3g.md) · [Back](../README.md) · [Next →](08-photos-of-real-people.md)
+[← Previous](06-the-menu-flickered-on-3g.md) · [Home](../README.md) · [Next →](08-photos-of-real-people.md)
 
 ## The problem
 
