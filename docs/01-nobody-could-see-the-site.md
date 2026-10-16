@@ -4,29 +4,41 @@
 
 ## The problem
 
-`www.mcgillxr.ca` led to a Google sign-in page, and `mcgillxr.ca` didn't load at all. On top
-of that, nobody on the team had the login for the domain.
+In September 2026, `www.mcgillxr.ca` redirected visitors to a Google sign-in page. The site
+was a Google Site that wasn't public, so only accounts with access could see it. The bare
+address, `mcgillxr.ca`, had no DNS record at all and had never worked.
+
+On top of that, nobody on the current team had the login for the domain registrar.
 
 ## Finding the real blocker
 
-The obvious fix was to make the Google Site public again. Instead I traced where the domain
-actually pointed. It turned out Google Sites never controlled it. A single DNS record did.
+I looked up the domain with WHOIS and `dig` on September 21:
+
+- registered in April 2023, expiring April 2027
+- locked against updates and transfers
+- its only record was a `www` CNAME pointing to Google's hosting
+- the nameservers were Google Cloud DNS
+
+So Google Sites never controlled the domain. It only pointed there because of one DNS
+record, managed outside Google Sites.
 
 ```mermaid
 flowchart LR
-    R[Registrar] --> D[Google DNS] --> G[Google Sites] --> W[Sign-in page]
+    R[Registrar] --> D[Google Cloud DNS] --> G[Google Sites] --> W[Sign-in page]
 ```
 
-That changed the plan. I didn't need access to the old site at all, only the registrar
-login. With that, I could point the domain somewhere new and leave the old site alone.
+That changed the plan. I didn't need access to the old Google Site. I needed the registrar
+login, so I could unlock the domain and point it somewhere else. The old site could stay
+exactly as it was.
 
 ## Working around it
 
-I didn't want the missing login to block everything. So I pulled the content out first,
-built the new site, and deployed it to a temporary address. The login only blocked the very
-last step.
+I didn't want the missing login to hold everything up. I got the content out of the old
+site, built the new one, and deployed it to a temporary Cloudflare address on October 9 so
+the team could review it. The missing login only blocked the domain move at the very end.
 
 ## What I'd change for next time
 
-Every account should belong to the club, with at least two owners and auto-renew turned on.
-That one rule would have prevented the whole situation.
+The domain, the hosting account and the code should all belong to the club, with at least
+two owners and auto-renew on, and be handed over before a term ends. I wrote that into the
+handoff document so the next VP Technology doesn't inherit the same problem.
