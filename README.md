@@ -1,4 +1,4 @@
-[Next →](02-getting-our-history-out.md)
+[Next →](docs/02-getting-our-history-out.md)
 
 # Rebuilding mcgillxr.ca
 
