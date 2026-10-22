@@ -1,3 +1,5 @@
+[Next →](02-getting-our-history-out.md)
+
 # Rebuilding mcgillxr.ca
 
 <img src="assets/cover.png" alt="The new McGillXR website on desktop and phone." width="100%">
